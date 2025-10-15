@@ -1,10 +1,12 @@
-import Saudacao from "./componente";
+import Componente from "./componente";
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Saudacao nome='Vitor'/>
+      <h1>Controle de Finanças</h1>
+      <Componente />
     </div>
-  )
+  );
 }
+
 export default App;
